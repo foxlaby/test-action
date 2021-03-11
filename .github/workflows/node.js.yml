@@ -28,3 +28,7 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
+    - name: Generate PhpInsights badges
+      uses: foxlaby/test-action@main
+      with:
+        token: '1d5s4f5'
