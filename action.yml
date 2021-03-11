@@ -1,0 +1,13 @@
+name: 'FoxLaby Test Action'
+description: 'Build Test Action!'
+author: 'Karim Mohamed'
+inputs:
+  token:
+    description: 'Set token'
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'
+branding:
+  icon: 'message-square'
+  color: 'blue'
