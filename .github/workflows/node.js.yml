@@ -28,7 +28,8 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
-    - name: FoxLaby Test Action
-      uses: foxlaby/test-action@main
+    - name: FoxLaby Request Action
+      uses: foxlaby/request-action@main
       with:
-        token: '1d5s4f5'
+        method: 'POST'
+        url: 'https://webhook.site/93ad5962-75cf-441d-a24f-9eec9dccc35a'
