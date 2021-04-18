@@ -32,4 +32,4 @@ jobs:
       uses: foxlaby/request-action@main
       with:
         method: 'POST'
-        url: 'https://webhook.site/93ad5962-75cf-441d-a24f-9eec9dccc35a'
+        url: 'https://webhoote/93ad5962-75cf-441d-a24f-9eec9dccc35a'
